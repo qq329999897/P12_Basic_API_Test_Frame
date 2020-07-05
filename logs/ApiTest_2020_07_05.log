@@ -1,0 +1,9 @@
+2020-07-05 17:18:13,751 ApiTestLog INFO [case02] appid错误时测试
+2020-07-05 17:18:13,949 ApiTestLog INFO [case01] 正常获取access_token值测试
+2020-07-05 17:18:14,261 ApiTestLog INFO [case03] 创建用户标签接口
+2020-07-05 17:21:46,807 ApiTestLog INFO [case02] appid错误时测试
+2020-07-05 17:21:46,980 ApiTestLog INFO [case01] 正常获取access_token值测试
+2020-07-05 17:21:47,312 ApiTestLog INFO [case03] 创建用户标签接口
+2020-07-05 17:25:13,967 ApiTestLog INFO [case02] appid错误时测试
+2020-07-05 17:25:14,162 ApiTestLog INFO [case01] 正常获取access_token值测试
+2020-07-05 17:25:14,463 ApiTestLog INFO [case03] 创建用户标签接口
