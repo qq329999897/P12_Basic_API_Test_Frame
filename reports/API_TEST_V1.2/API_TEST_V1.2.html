@@ -236,11 +236,11 @@ table       { font-size: 100%; }
                     ['通过', 2],
                     {
                         name: '失败',
-                        y: 1,
+                        y: 0,
                         sliced: true,
                         selected: true
                     },
-                    ['错误', 0]
+                    ['错误', 1]
                 ]
             }]
         }, function(c) {
@@ -375,11 +375,11 @@ function html_escape(s) {
 <div style="width: 650px; float: left;">
     <h1 style="font-family: Microsoft YaHei">newdream_API_TEST</h1>
     <p class='attribute'><strong>测试人员 : </strong> newdream</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-07-05 17:18:13</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:01.574074</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 2，失败 1，通过率 = 66.67%</p>
-<p class='attribute'><strong>失败用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#failCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='failCaseOl' class='collapse' style='float: left;'><li>test_add_tag (user_manager.user_tag_manager.create_tag_cases.CreateTagCases)</li></ol></p>
-<p class='attribute'><strong>错误用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-07-08 21:18:08</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:01.647170</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 2，错误 1，通过率 = 66.67%</p>
+<p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+<p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>test_add_tag (user_manager.user_tag_manager.create_tag_cases01.CreateTagCases)</li></ol></p>
 
     <p class='description'>study~~~</p>
 </div>
@@ -392,8 +392,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 66.67% }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 0 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 1 }</a>
 <a class="btn btn-info" href='javascript:showCase(4)'>所有{ 3 }</a>
 </p>
 </div>
@@ -426,72 +426,68 @@ function html_escape(s) {
     <td class="text-center">2</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center">0.51秒</td>
+    <td class="text-center">0.46秒</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
     <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_appid_error</div></td>
-    <td style="vertical-align: left"></td>
+    <td style="vertical-align: left">[case02] appid错误时测试</td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
     <td class='passCase' style="vertical-align: middle"></td>
 </tr>
 
 <tr id='pt1_2' class='hiddenRow'>
     <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_get_access_token</div></td>
-    <td style="vertical-align: left"></td>
+    <td style="vertical-align: left">[case01] 正常获取access_token值测试</td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
     <td class='passCase' style="vertical-align: middle"></td>
 </tr>
 
-<tr class='failClass warning'>
+<tr class='errorClass warning'>
     <td>CreateTagCases</td>
     <td></td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">0.58秒</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0.49秒</td>
     <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
 </tr>
 
-    <tr id='ft2_1' class='none'>
-        <td class='failCase' style="vertical-align: middle"><div class='testcase'>test_add_tag</div></td>
+    <tr id='et2_1' class='none'>
+        <td class='errorCase' style="vertical-align: middle"><div class='testcase'>test_add_tag</div></td>
         <td style="vertical-align: middle"></td>
         <td colspan='5' align='center'>
         <!--默认收起错误信息 -Findyou
-        <button id='btn_ft2_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>失败</button>
-        <div id='div_ft2_1' class="collapse">  -->
+        <button id='btn_et2_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et2_1'>错误</button>
+        <div id='div_et2_1' class="collapse">  -->
 
         <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
-        <button id='btn_ft2_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_ft2_1'>失败</button>
-        <div id='div_ft2_1' class="collapse in">
+        <button id='btn_et2_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et2_1'>错误</button>
+        <div id='div_et2_1' class="collapse in">
         <pre style="text-align:left">
         
-ft2_1: Traceback (most recent call last):
-  File "/Users/liuqingjun/PycharmProjects/P12_Basic_API_Test_Frame/testcases/user_manager/user_tag_manager/create_tag_cases.py", line 43, in test_add_tag
-    self.assertEqual( actual_result,'newdream66688' )
-AssertionError: 'newdream66655' != 'newdream66688'
-- newdream66655
-?            ^^
-+ newdream66688
-?            ^^
-
+et2_1: {'errcode': 45158, 'errmsg': 'tag name too long hint: [IkDdtdmnRa-04bAfA]'}
+Traceback (most recent call last):
+  File "/Users/liuqingjun/PycharmProjects/P12_Basic_API_Test_Frame/testcases/user_manager/user_tag_manager/create_tag_cases01.py", line 34, in test_add_tag
+    actual_result = create_tag_response.json()["tag"]["name"]
+KeyError: 'tag'
 
 
         </pre>
         </div>
         </td>
-        <td class='failCase' style="vertical-align: middle"></td>
+        <td class='errorCase' style="vertical-align: middle"></td>
     </tr>
     
 <tr id='total_row' class="text-center active">
     <td colspan='2'>总计</td>
     <td>3</td>
     <td>2</td>
-    <td>1</td>
     <td>0</td>
-    <td>1.09秒</td>
+    <td>1</td>
+    <td>0.95秒</td>
     <td>通过率：66.67%</td>
 </tr>
 </table>

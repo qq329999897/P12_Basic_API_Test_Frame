@@ -11,7 +11,7 @@ from common.localconfig_utils import local_config
 def get_all_cases_suite():
     discover = unittest.defaultTestLoader.discover(
                             start_dir='./testcases',
-                            pattern='*_cases.py',
+                            pattern='*_cases01.py',
                             top_level_dir='./testcases'
                         )
     all_cases_suite = unittest.TestSuite()

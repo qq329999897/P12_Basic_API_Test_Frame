@@ -37,6 +37,15 @@ class LocalconfigUtils():
         log_level_value = int( self.cfg.get('log','LOG_LEVEL') )
         return log_level_value
 
+    @property
+    def APPID(self):
+        appid_value = int( self.cfg.get('default','APPID') )
+        return appid_value
+
+    @property
+    def SERCET(self):
+        sercet_value = int( self.cfg.get('default','SERCET') )
+        return sercet_value
 
 local_config = LocalconfigUtils()
 
